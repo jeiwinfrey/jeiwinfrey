@@ -7,7 +7,7 @@
 <p align='center'>
 I'm Jeiwinfrey, a Computer Science Sophomore.
 </p>
-<p align='center'>I am looking for friends, reach out <b>@bogkensusjaj</b> on Discord.</p>
+<p align='center'>I'm looking for friends, reach out <b>@bogkensusjaj</b> on Discord.</p>
 <p align='center'>--currently studying web development--</p>
 
 <h1 align='center'><i>Stay awesome!</i></h1>
