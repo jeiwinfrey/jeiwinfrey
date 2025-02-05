@@ -40,7 +40,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /jeiwinfrey
+          NEXT_PUBLIC_BASE_PATH: /jeiwinfreyulep
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
