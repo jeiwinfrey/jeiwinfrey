@@ -26,7 +26,7 @@ function StackedCircularFooter() {
       await new Promise(resolve => setTimeout(resolve, 1000))
       setSubmitStatus('success')
       setFormData({ name: '', email: '', message: '' })
-    } catch (error) {
+    } catch {
       setSubmitStatus('error')
     } finally {
       setIsSubmitting(false)
@@ -42,7 +42,7 @@ function StackedCircularFooter() {
               Get In Touch
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Have a question or want to work together? Feel free to reach out!
+              I&apos;ll get back to you as soon as possible.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ function StackedCircularFooter() {
               <div>
                 <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
                 <p className="text-muted-foreground mb-6">
-                  Fill out the form and I'll get back to you as soon as possible.
+                  I&apos;ll get back to you as soon as possible.
                 </p>
               </div>
               <div className="flex flex-col space-y-4">
@@ -151,7 +151,7 @@ function StackedCircularFooter() {
                       <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      Thanks! I'll get back to you soon.
+                      Thanks! I&apos;ll get back to you soon.
                     </p>
                   </div>
                 )}

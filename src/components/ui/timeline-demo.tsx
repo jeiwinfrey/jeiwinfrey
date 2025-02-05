@@ -2,33 +2,16 @@
 
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
-import Link from "next/link";
 
 export function TimelineDemo() {
   const data = [
     {
       title: "2023-Present",
       content: (
-        <div className="max-w-lg">
-          <p className="text-neutral-800 dark:text-neutral-200 text-base font-semibold tracking-tight mb-4">
-            Computer Science Program at Mariano Marcos State University
+        <div>
+          <p>
+            Currently pursuing my Computer Science degree at De La Salle University - Manila. I&apos;m focusing on web development and software engineering.
           </p>
-          <div className="mb-8">
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm mb-4">
-              Embarking on my computer science journey has opened up a whole new world of possibilities. Here, I've discovered my true calling in web development, diving deep into:
-            </p>
-            <div className="flex flex-col gap-2">
-              <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm">
-                🚀 Mastering modern web technologies and frameworks
-              </div>
-              <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm">
-                💻 Creating responsive and dynamic web applications
-              </div>
-              <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm">
-                📚 Expanding my knowledge in software architecture and design patterns
-              </div>
-            </div>
-          </div>
         </div>
       ),
     },

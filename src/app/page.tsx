@@ -2,6 +2,7 @@ import { NavBarDemo } from "@/components/ui/navbar-demo"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Github, Linkedin, Briefcase, MapPin } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { TimelineDemo } from "@/components/ui/timeline-demo"
 import { TechStack } from "@/components/ui/tech-stack"
 import { ProjectsShowcase } from "@/components/ui/projects-showcase"
@@ -20,7 +21,7 @@ export default function Home() {
             </Avatar>
           </div>
           <h1 className="text-5xl md:text-6xl font-extrabold">
-            Hi 👋, I'm Jeiwinfrey
+            Hi 👋, I&apos;m Jeiwinfrey
           </h1>
           <p className="text-lg md:text-xl max-w-[600px] text-muted-foreground">
             A passionate sophomore front-end developer.
@@ -71,7 +72,7 @@ export default function Home() {
                 <div className="w-12 h-1 bg-primary rounded"></div>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                As a sophomore front-end developer, I'm passionate about creating beautiful and functional user interfaces. 
+                As a sophomore front-end developer, I&apos;m passionate about creating beautiful and functional user interfaces. 
                 I specialize in React and modern web technologies, always striving to learn and implement the latest best practices.
               </p>
               <div className="pt-4">
@@ -81,9 +82,11 @@ export default function Home() {
             <div className="relative aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-background to-muted shadow-xl ring-1 ring-gray-900/10">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 backdrop-blur-sm"></div>
               <div className="absolute inset-0 flex items-center justify-center transform hover:scale-105 transition-transform duration-300">
-                <img 
+                <Image 
                   src="/dancing-pig.png" 
                   alt="Dancing Pig"
+                  width={500}
+                  height={500}
                   className="w-full h-full object-cover"
                 />
               </div>
