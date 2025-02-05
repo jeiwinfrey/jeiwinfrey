@@ -8,10 +8,26 @@ export function TimelineDemo() {
     {
       title: "2023-Present",
       content: (
-        <div>
-          <p>
-            Currently pursuing my Computer Science degree at De La Salle University - Manila. I&apos;m focusing on web development and software engineering.
+        <div className="max-w-lg">
+          <p className="text-neutral-800 dark:text-neutral-200 text-base font-semibold tracking-tight mb-4">
+            Computer Science at Mariano Marcos State University
           </p>
+          <div className="mb-8">
+            <p className="text-neutral-700 dark:text-neutral-300 text-sm mb-4">
+              Currently pursuing my degree with a focus on:
+            </p>
+            <div className="flex flex-col gap-2">
+              <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm">
+                💻 Full-stack web development and modern frameworks
+              </div>
+              <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm">
+                🔧 Software engineering principles and best practices
+              </div>
+              <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm">
+                🤖 Computer science fundamentals and algorithms
+              </div>
+            </div>
+          </div>
         </div>
       ),
     },
