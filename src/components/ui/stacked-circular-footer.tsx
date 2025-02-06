@@ -171,7 +171,7 @@ function StackedCircularFooter() {
 
           <div className="text-center mt-12">
             <p className="text-sm text-muted-foreground">
-              {new Date().getFullYear()} Jeiwinfrey. All rights reserved.
+              {new Date().getFullYear()} Made with WebFlow Drag and Drop by Jeiwinfrey.
             </p>
           </div>
         </div>
