@@ -35,25 +35,30 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-6">
-              <Briefcase className="w-4 h-4" />
-              Front-end Developer
+              <div className="inline-flex items-center gap-2 text-muted-foreground">
+                <Briefcase className="w-4 h-4" />
+                Front-end Developer
+              </div>
             <Link 
-              href="/unavailable" 
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+              href="https://www.google.com/maps/place/Philippines" 
+              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-all cursor-pointer"
+              target="_blank"
             >
               <MapPin className="w-4 h-4" />
               Philippines
             </Link>
             <Link 
-              href="/unavailable" 
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+              href="https://www.linkedin.com/in/jeiwinfrey" 
+              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-all cursor-pointer"
+              target="_blank"
             >
               <Linkedin className="w-4 h-4" />
               Connect on Linkedin
             </Link>
             <Link 
-              href="/unavailable" 
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+              href="https://github.com/jeiwinfrey" 
+              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-all cursor-pointer"
+              target="_blank"
             >
               <Github className="w-4 h-4" />
               Github
