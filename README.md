@@ -8,7 +8,7 @@
 I'm Jeiwinfrey, a Computer Science Sophomore.
 </p>
 <p align='center'>I'm looking for friends, reach out <b>@bogkensusjaj</b> on Discord.</p>
-<p align='center'>--currently studying web development--</p>
+<p align='center'>--currently studying react native mobile development (iOS focus)--</p>
 
 <h1 align='center'><i>Stay awesome!</i></h1>
 <div>
