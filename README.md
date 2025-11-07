@@ -5,7 +5,7 @@
 
 <h1 align='center'> Hi! :wave:</h1>
 <p align='center'>
-I'm Jeiwinfrey, a Computer Science Sophomore.
+I'm Jeiwinfrey, a Computer Science Junior
 </p>
 <p align='center'>I'm looking for friends, reach out <b>@bogkensusjaj</b> on Discord.</p>
 <p align='center'>--currently studying react native mobile development (iOS focus)--</p>
